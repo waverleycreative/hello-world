@@ -1,0 +1,98 @@
+.screen-size {
+  background: #000;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 99;
+}
+.screen-size.xl {
+  display: block;
+}
+.screen-size.l {
+  display: none;
+}
+.screen-size.m {
+  display: none;
+}
+.screen-size.s {
+  display: none;
+}
+.screen-size.xs {
+  display: none;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .screen-size.xl {
+    display: none;
+  }
+  .screen-size.l {
+    display: block;
+  }
+  .screen-size.m {
+    display: none;
+  }
+  .screen-size.s {
+    display: none;
+  }
+  .screen-size.xs {
+    display: none;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .screen-size.xl {
+    display: none;
+  }
+  .screen-size.l {
+    display: none;
+  }
+  .screen-size.m {
+    display: block;
+  }
+  .screen-size.s {
+    display: none;
+  }
+  .screen-size.xs {
+    display: none;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .screen-size.xl {
+    display: none;
+  }
+  .screen-size.l {
+    display: none;
+  }
+  .screen-size.m {
+    display: none;
+  }
+  .screen-size.s {
+    display: block;
+  }
+  .screen-size.xs {
+    display: none;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .screen-size.xl {
+    display: none;
+  }
+  .screen-size.l {
+    display: none;
+  }
+  .screen-size.m {
+    display: none;
+  }
+  .screen-size.s {
+    display: none;
+  }
+  .screen-size.xs {
+    display: block;
+  }
+}
